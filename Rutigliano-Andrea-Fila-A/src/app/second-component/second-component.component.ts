@@ -4,7 +4,7 @@ import { ThirdComponentComponent } from '../third-component/third-component.comp
 @Component({
   selector: 'app-second-component',
   standalone: true,
-  imports: [],
+  imports: [ThirdComponentComponent],
   templateUrl: './second-component.component.html',
   styleUrl: './second-component.component.css'
 })

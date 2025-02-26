@@ -4,7 +4,7 @@ import { FourthComponentComponent } from '../fourth-component/fourth-component.c
 @Component({
   selector: 'app-third-component',
   standalone: true,
-  imports: [],
+  imports: [FourthComponentComponent],
   templateUrl: './third-component.component.html',
   styleUrl: './third-component.component.css'
 })
