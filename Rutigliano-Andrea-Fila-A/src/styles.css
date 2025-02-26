@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+#style {
+    background-color: gray;
+    padding: 40px;
+    width: 250px;
+    
+}
